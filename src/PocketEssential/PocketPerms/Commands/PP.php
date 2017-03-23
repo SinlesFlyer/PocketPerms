@@ -38,6 +38,15 @@ class PP extends Base
                 /*
                  *  Set a player group
                  */
+                case 'help';
+                    if($args[1] == null)}
+                        $sender->sendMessage(TextFormat::GREEN . 'PocketPerms Help');
+                        $sender->sendMessage(TextFormat::RED . 'Addgroup: /pp addgroup'); 
+                        $sender->sendMessage(TextFormat::RED . 'Setgroup: /pp setgroup'); 
+                        $sender->sendMessage(TextFormat::RED . 'DeleteGroup: /pp delgrp'); 
+               }
+        }
+    }
                 case "setgroup":
                 case "setgrp":
                     if($args[1] == null){
